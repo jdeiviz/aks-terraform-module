@@ -77,7 +77,7 @@ resource "azurerm_kubernetes_cluster" "aks" {
   kubernetes_version    = "${var.kubernetes_version}"
 
   agent_pool_profile {
-    name              = "${var.name}aks${var.environment}"
+    name              = "${var.name}${var.environment}"
     count             = "${var.count}"
     vm_size           = "${var.vm_size}"
     max_pods          = "${var.max_pods}"
