@@ -15,7 +15,7 @@ An example of Terraform module that creates an AKS cluster with the followings:
 
 # Usage
 
-```shell
+```javascript
 module "aks" {
     source = "../modules/aks"
 
