@@ -31,5 +31,5 @@ output "app_acr_secret" {
 }
 
 output "cluster_admins_group_id" {
-  value = "${data.external.cluster_admins_group_id.result.id}"
+  value = "${data.external.cluster_admins_group_id.result["id"]}"
 }
