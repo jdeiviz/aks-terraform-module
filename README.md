@@ -1,6 +1,6 @@
 # A complete AKS Terraform module
 
-An example of Terraform module that creates an AKS cluster with the followings:
+An example of Terraform module that creates an AKS cluster with the following:
 
 - A Service Principal for AKS cluster
 - Container log analytics enabled
