@@ -1,0 +1,5 @@
+controller:
+  ingressClass: ingress-public
+  replicaCount: 2
+  service:
+    externalTrafficPolicy: Local    

@@ -1,0 +1,7 @@
+controller:
+  ingressClass: ingress-private
+  replicaCount: 2
+  service:
+    externalTrafficPolicy: Local    
+    annotations:
+      service.beta.kubernetes.io/azure-load-balancer-internal: "true"
